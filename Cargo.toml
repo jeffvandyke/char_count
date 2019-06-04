@@ -2,6 +2,7 @@
 name = "char_count"
 version = "0.1.0"
 authors = ["Jeff VanDyke <jeffvd.a216@gmail.com>"]
+edition = "2018"
 
 [dependencies]
 pancurses = "0.15.0"

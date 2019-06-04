@@ -35,7 +35,7 @@ impl CharCounts {
 }
 
 /// Writes the entire state of the window out to the screen.
-fn render(wnd: &curses::Window, text: &String, counts: &CharCounts)
+fn render(wnd: &curses::Window, text: &String, _counts: &CharCounts)
 {
     // Shoot, I don't know how to use curses best!
     let screen_width = wnd.get_max_x();
